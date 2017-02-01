@@ -1,0 +1,131 @@
+/**general indicators**/
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+img[alt] {
+	max-width: 100%;
+	min-height: 200%;
+}
+
+li {
+	list-style: none;
+}
+
+/*header*/
+
+header {
+	text-align: center;
+}
+
+#search {
+	border: 2px solid #e5daef;
+	padding: 10px;
+	margin-top: 30px;
+	border-radius: 7px;
+	width: 35%;
+	min-width: 200px;
+	font-family: 'Merriweather', serif;
+	color: #A9A9A9;
+	;
+	font-size: 0.95em;
+}
+
+#search:focus {
+	border: 2px solid #A9A9A9;
+	border-radius: 7px;
+	outline: none;
+}
+
+/* image gallery */
+
+#galleria li {
+	margin: 15%;
+}
+
+/*footer*/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+}
+
+.logo {
+	max-width: 40px;
+}
+
+#footer {
+	padding-top: 0;
+}
+
+/*the overlay*/
+
+#overlay {
+	background: rgba(0, 0, 0, 0.9);
+	width: 100%;
+	height: 314%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	text-align: center;
+}
+
+#overlay img {
+	max-width: 55%;
+	max-height: 60%;
+	margin-top: 10%;
+}
+
+#overlay p {
+	color: white;
+	font-size: 0.9em;
+	margin-top: 35px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+/*the buttons*/
+
+.arrow, .close {
+	color: white;
+	background: none;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.arrow {
+	position: absolute;
+	top: 0;
+	margin-top: 25%;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.prev {
+	left: 0;
+	margin-left: 7%;
+}
+
+.next {
+	right: 0;
+	margin-right: 7%;
+}
+
+.prev:hover, .next:hover, .close:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.close {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 2%;
+	margin-top: 2%;
+	font-weight: bold;
+}
